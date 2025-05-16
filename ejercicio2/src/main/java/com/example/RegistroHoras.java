@@ -18,7 +18,8 @@ public class RegistroHoras {
             System.out.println();
         }
 
-        // Calcular y mostrar el total de horas por trabajador
+        // Total de horas por trabajador
+
         System.out.println("\nTotal de horas por trabajador:");
         for (int i = 0; i < 3; i++) {
             double total = 0;

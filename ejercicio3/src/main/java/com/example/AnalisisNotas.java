@@ -35,13 +35,14 @@ public class AnalisisNotas {
             }
         }
 
-        double promedio = suma / notas.size(); // Calcular promedio
+        // Calcular promedio
+        double promedio = suma / notas.size(); 
 
         // Mostrar los resultados
         System.out.println("\nPromedio general: " + promedio);
         System.out.println("Cantidad de estudiantes que aprobaron: " + aprobados);
 
-        sc.close(); // Cerrar el scanner
+        sc.close(); 
 
     }
 }

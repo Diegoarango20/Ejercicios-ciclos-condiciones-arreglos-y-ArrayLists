@@ -13,13 +13,13 @@ public class RevisionVentas {
             ventas[i] = sc.nextDouble();
         }
 
-        // Inicializar variables para mayor y menor venta
+        //  Mayor y menor venta
         double mayorVenta = ventas[0];
         double menorVenta = ventas[0];
         int diaMayor = 0;
         int diaMenor = 0;
 
-        // Buscar el día de mayor y menor venta
+        //  día de mayor y menor venta
         for (int i = 1; i < ventas.length; i++) {
             if (ventas[i] > mayorVenta) {
                 mayorVenta = ventas[i];
